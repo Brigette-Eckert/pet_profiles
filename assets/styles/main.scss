@@ -1,0 +1,19 @@
+//To Burn in Effigy Pallette - credit winged_courage
+
+$raspberry: #940533;
+$rose: #C0012A;
+$red: #F5061D;
+$dark_orange: #FF8800;
+$light_orange: #FFB300;
+
+html {
+  background-color: $raspberry;
+}
+
+.human{
+  background-color:$dark_orange;
+}
+
+.pet {
+  background-color: $light_orange;
+}

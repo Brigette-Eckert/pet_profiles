@@ -1,7 +1,21 @@
 {% extends "layout.html" %}
 {% block title %}
-
+    {{ human.user }}
 {%  endblock %}
 {% block content %}
-    <h1> PET PROFILES, MEOW! WOOF! </h1>
+    <h1> About {{ pet.name }} </h1>
+    <div class="human">
+    {{ human.user }}
+    {{ human.birthday }}
+    {{ human.location }}
+    {{ human.bio }}
+    </div>
+   <div class="pet">
+    {{ pet.name }}
+    {{ pet.age }}
+    {{ pet.nickname }}
+   </div>
 {% endblock %}
+
+
+{#header text showing up but models not#}
