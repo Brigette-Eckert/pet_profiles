@@ -5,15 +5,17 @@
 {% block content %}
     <h1> About {{ pet.name }} </h1>
     <div class="human">
-    {{ human.user }}
-    {{ human.birthday }}
-    {{ human.location }}
-    {{ human.bio }}
+    <h2> Human </h2>
+    name: {{ human.user }}
+    bday:{{ human.birthday }}
+    location: {{ human.location }}
+    bio: {{ human.bio }}
     </div>
    <div class="pet">
-    {{ pet.name }}
-    {{ pet.age }}
-    {{ pet.nickname }}
+   <h2> Pet </h2>
+    name: {{ pet.name }}
+    age: {{ pet.age }}
+    nickname: {{ pet.nickname }}
    </div>
 {% endblock %}
 

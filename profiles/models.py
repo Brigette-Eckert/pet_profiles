@@ -9,12 +9,9 @@ class Human(models.Model):
     location = models.CharField(max_length=255)
     bio = models.TextField()
 
-    def __str__(self):
-        return self.user
-
 
 class Pet(models.Model):
-    human = models.ForeignKey(Human)
+    # human = models.ForeignKey(Human)
     name = models.CharField(max_length=255)
     nickname = models.CharField(max_length=255)
     age = models.PositiveSmallIntegerField()
@@ -24,5 +21,5 @@ class Pet(models.Model):
     def __str__(self):
         return self.name
 
-# figure out datefield problem
+
 # add url ImageField

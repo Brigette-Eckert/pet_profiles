@@ -8,12 +8,17 @@ $light_orange: #FFB300;
 
 html {
   background-color: $raspberry;
+  color: white;
 }
 
 .human{
   background-color:$dark_orange;
+  height: 300px;
+  width: 500px;
 }
 
 .pet {
   background-color: $light_orange;
+  height: 300px;
+  width: 500px;
 }

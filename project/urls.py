@@ -20,3 +20,5 @@ urlpatterns = [
     url(r'^admin', admin.site.urls),
     url(r'^', include("profiles.urls", namespace="profiles")),
 ]
+
+

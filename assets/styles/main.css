@@ -1,10 +1,15 @@
 html {
-  background-color: #940533; }
+  background-color: #940533;
+  color: white; }
 
 .human {
-  background-color: #FF8800; }
+  background-color: #FF8800;
+  height: 300px;
+  width: 500px; }
 
 .pet {
-  background-color: #FFB300; }
+  background-color: #FFB300;
+  height: 300px;
+  width: 500px; }
 
 /*# sourceMappingURL=main.css.map */

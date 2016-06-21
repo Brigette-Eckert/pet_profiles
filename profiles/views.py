@@ -4,7 +4,8 @@ from profiles.models import Human, Pet
 
 
 def profile_home(request):
-    return render(request, "profiles/profile_list.html", {"profile": {human}})
+    profiles = Human.objects.all()
+    return render(request, "profiles/profile_list.html", {"profiles": {profiles}})
 
 
 def profile_detail(request, pk):
